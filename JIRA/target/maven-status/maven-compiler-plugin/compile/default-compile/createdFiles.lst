@@ -1,0 +1,9 @@
+com\polsl\otherClasses\Priority.class
+com\polsl\otherClasses\Task.class
+com\polsl\otherClasses\Person.class
+com\polsl\controler\FirstLevelMenu.class
+com\polsl\controler\interfaces\SecondLevelMenuInterface.class
+com\polsl\jira\JIRA.class
+com\polsl\controler\interfaces\FirstLevelMenuInterface.class
+com\polsl\view\View.class
+com\polsl\controler\Controller.class
