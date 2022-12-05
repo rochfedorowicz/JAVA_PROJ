@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.polsl.jira_with_gui.MainMenuController">
+   <children>
+      <Button fx:id="addToTableButton" layoutX="36.0" layoutY="25.0" mnemonicParsing="false" onAction="#addToTable" prefHeight="25.0" prefWidth="128.0" text="Add to table" />
+      <TextField fx:id="nameTextfield" layoutX="25.0" layoutY="62.0" />
+      <TextField fx:id="surnameTextfield" layoutX="25.0" layoutY="99.0" />
+      <TextField fx:id="signumTextfield" layoutX="25.0" layoutY="136.0" />
+      <TableView fx:id="tableView" layoutX="220.0" layoutY="29.0" prefHeight="195.0" prefWidth="349.0">
+        <columns>
+          <TableColumn id="nameColumn" fx:id="nameColumn" prefWidth="70.0" text="Name" />
+          <TableColumn id="surnameColumn" fx:id="surnameColumn" prefWidth="87.0" text="Surname" />
+          <TableColumn id="signumColumn" fx:id="signumColumn" prefWidth="83.0" text="Signum" />
+            <TableColumn id="positionColumn" fx:id="positionColumn" prefWidth="107.0" text="Position" />
+        </columns>
+      </TableView>
+      <ChoiceBox fx:id="positionChoiceBox" layoutX="25.0" layoutY="175.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>

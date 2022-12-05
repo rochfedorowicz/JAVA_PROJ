@@ -1,0 +1,9 @@
+pl\polsl\model\Task.class
+pl\polsl\model\NameViolationException.class
+pl\polsl\model\KeyViolationException.class
+pl\polsl\model\Priority.class
+pl\polsl\model\Position.class
+module-info.class
+pl\polsl\model\InstanceNotFoundException.class
+pl\polsl\model\Model.class
+pl\polsl\model\Person.class

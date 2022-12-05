@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.polsl.controler"},{"l":"com.polsl.controler.interfaces"},{"l":"com.polsl.jira"},{"l":"com.polsl.model"},{"l":"com.polsl.otherClasses"},{"l":"com.polsl.view"}];updateSearchResults();

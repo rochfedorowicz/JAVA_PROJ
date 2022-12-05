@@ -1,5 +1,0 @@
-taskID,priority,date,description,signum,testingID
-1,HIGH,2022-11-28,Do java testing,rocfed,1
-2,LOW,2022-11-28,Keep calm and do nothing,rocfed,2
-3,MEDIUM,2022-12-06,Do something,micjul,3
-4,HIGH,2023-05-03,Do something else,barbis,4
