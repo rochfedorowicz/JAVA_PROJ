@@ -20,7 +20,7 @@ public class App extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        scene = new Scene(loadFXML("MainMenu"), 640, 480);
+        scene = new Scene(loadFXML("MainMenu"), 720, 370);
         stage.setScene(scene);
         stage.show();
     }

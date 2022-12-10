@@ -25,7 +25,7 @@ public class Model {
         NameViolationException {
         if (!person.getSurname().matches("^[A-Z]{1}([a-z]{1,}[ ]?){1,}$") ||
             !person.getName().matches("^[A-Z]{1}([a-z]{1,}[ ]?){1,}$")) {
-            throw new NameViolationException("\nThis name isn't correct");
+            throw new NameViolationException("\nThis name or surname isn't correct");
         }
         for (Person p : team) { 
             if (p.getSignum().equals(person.getSignum())) {
@@ -43,7 +43,7 @@ public class Model {
     */
     public void addNewTaskToBoard(Task task) throws KeyViolationException {
         for (Task t : tasks) { 
-            if (t.getTaskID().equals(t.getTaskID())) {
+            if (t.getTaskID().equals(task.getTaskID())) {
                 throw new KeyViolationException("\nTask identified by " +
                     "ID: " + task.getTaskID() + " already exist!!!");
             }
