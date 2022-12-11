@@ -1,10 +1,13 @@
-pl\polsl\model\Task.class
+pl\polsl\controller\MainMenuController$2.class
+pl\polsl\controller\MainMenuController$1.class
 pl\polsl\model\NameViolationException.class
+pl\polsl\otherClasses\Task.class
 pl\polsl\model\KeyViolationException.class
-pl\polsl\model\Priority.class
 pl\polsl\jira_with_gui\App.class
-pl\polsl\model\Position.class
 module-info.class
+pl\polsl\controller\MainMenuController.class
 pl\polsl\model\InstanceNotFoundException.class
 pl\polsl\model\Model.class
-pl\polsl\model\Person.class
+pl\polsl\otherClasses\Position.class
+pl\polsl\otherClasses\Priority.class
+pl\polsl\otherClasses\Person.class

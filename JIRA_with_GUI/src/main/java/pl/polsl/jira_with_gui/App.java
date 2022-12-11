@@ -1,5 +1,6 @@
 package pl.polsl.jira_with_gui;
 
+import pl.polsl.controller.MainMenuController;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -22,6 +23,8 @@ public class App extends Application {
     public void start(Stage stage) throws IOException {
         scene = new Scene(loadFXML("MainMenu"), 720, 370);
         stage.setScene(scene);
+        stage.setTitle("JIRA");
+        stage.setResizable(false);
         stage.show();
     }
 

@@ -1,7 +1,6 @@
-package pl.polsl.model;
+package pl.polsl.otherClasses;
 
-import javafx.beans.property.Property;
-import javafx.beans.value.ObservableValue;
+import pl.polsl.otherClasses.Position;
 
 /**
  * This class represents person in a system

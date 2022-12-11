@@ -1,4 +1,4 @@
-package pl.polsl.model;
+package pl.polsl.otherClasses;
 
 import java.time.LocalDate;
 /**
@@ -56,6 +56,10 @@ public class Task {
 
     public String getAssigneeSignum() {
         return assigneeSignum;
+    }
+    
+    public void setAssigneeSignum(String assigneeSignum) {
+        this.assigneeSignum = assigneeSignum;
     }
 
     @Override

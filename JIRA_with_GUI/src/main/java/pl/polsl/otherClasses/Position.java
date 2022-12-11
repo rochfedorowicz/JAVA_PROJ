@@ -1,4 +1,4 @@
-package pl.polsl.model;
+package pl.polsl.otherClasses;
 
 /**
  * Enum representing positions available in system

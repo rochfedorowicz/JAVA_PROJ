@@ -1,0 +1,4 @@
+--patch-module
+pl.polsl.jira_with_gui=_
+--add-reads
+pl.polsl.jira_with_gui=ALL-UNNAMED

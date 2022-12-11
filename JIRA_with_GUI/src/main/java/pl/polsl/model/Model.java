@@ -1,5 +1,9 @@
 package pl.polsl.model;
 
+import pl.polsl.otherClasses.Person;
+import pl.polsl.otherClasses.Position;
+import pl.polsl.otherClasses.Priority;
+import pl.polsl.otherClasses.Task;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;

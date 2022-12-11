@@ -1,4 +1,4 @@
-package pl.polsl.model;
+package pl.polsl.otherClasses;
 
 /**
  * Simple enum representing possible priority's value in system
